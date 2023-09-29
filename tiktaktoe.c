@@ -14,23 +14,23 @@ int r;				//actual row
 int c;				//actual column
 
 void draw(){			//main game cross screen 
-	printf("\n\n\n\n\n\n\t\t\t\t##########################\n");
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##   %c  ##   %c  ##   %c  ##\n",board[0][0],board[0][1],board[0][2]);
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##########################\n");
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##   %c  ##   %c  ##   %c  ##\n",board[1][0],board[1][1],board[1][2]);
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##########################\n");
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##   %c  ##   %c  ##   %c  ##\n",board[2][0],board[2][1],board[2][2]);
-				printf("\t\t\t\t##      ##      ##      ##\n");
-				printf("\t\t\t\t##########################\n\n\n");
-				printf("\t\t\t\tPLAYER 1 = X      PLAYER 2 = O \n");
+	printf("\n\n\n\n\n\n\t\t\t\t\t##########################\n");
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##   %c  ##   %c  ##   %c  ##\n",board[0][0],board[0][1],board[0][2]);
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##########################\n");
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##   %c  ##   %c  ##   %c  ##\n",board[1][0],board[1][1],board[1][2]);
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##########################\n");
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##   %c  ##   %c  ##   %c  ##\n",board[2][0],board[2][1],board[2][2]);
+				printf("\t\t\t\t\t##      ##      ##      ##\n");
+				printf("\t\t\t\t\t##########################\n\n\n");
+				printf("\t\t\t\t\tPLAYER 1 = X    PLAYER 2 = O \n");
 }
 
 void player(){			//show player turn and take input from player
