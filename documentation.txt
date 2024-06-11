@@ -1,0 +1,72 @@
+Author = Ayush Soni
+Title = Tic-Tac-Toe Game
+
+Introduction:
+This program implements a simple Tic-Tac-Toe game in C. It allows two players to take turns marking spaces on a 3x3 grid, aiming to form a row, column, or diagonal of their symbol (X or O) to win the game.
+
+Program Structure:
+The program consists of several functions to manage different aspects of the game:
+- draw(): Displays the current state of the game board.
+- player(): Prompts the current player to enter their move (row and column).
+- response(): Validates the player's move and updates the game board accordingly.
+- winner(): Displays a congratulatory message if a player wins the game.
+- gamedraw(): Displays a message if the game ends in a draw.
+- checkwinner(): Checks if there's a winner or if the game has ended in a draw.
+- main(): The main function controls the flow of the game by repeatedly calling other functions until the game is over.
+
+Functions:
+1. draw():
+   - Purpose: Display the Tic-Tac-Toe board on the console.
+   - Parameters: None
+   - Return Value: None
+   - Side Effects: Prints the current state of the game board on the console.
+
+2. player():
+   - Purpose: Prompt the current player to enter their move.
+   - Parameters: None
+   - Return Value: None
+   - Side Effects: Reads user input for row and column selection.
+
+3. response():
+   - Purpose: Validates the player's move and updates the game board.
+   - Parameters: None
+   - Return Value: None
+   - Side Effects: Modifies the game board based on the player's move.
+
+4. winner():
+   - Purpose: Display a congratulatory message if a player wins.
+   - Parameters: None
+   - Return Value: None
+   - Side Effects: Prints a winning message on the console.
+
+5. gamedraw():
+   - Purpose: Display a message if the game ends in a draw.
+   - Parameters: None
+   - Return Value: None
+   - Side Effects: Prints a draw message on the console.
+
+6. checkwinner():
+   - Purpose: Check if there's a winner or if the game has ended in a draw.
+   - Parameters: None
+   - Return Value: None
+   - Side Effects: Calls winner() or gamedraw() if appropriate.
+
+Variable Descriptions:
+- board[][]: Stores the current state of the game board.
+- gameover: Flag to indicate if the game is over.
+- rowth, colth: Theoretical row and column selected by the player.
+- i: Player turn indicator.
+- r, c: Actual row and column on the game board.
+
+Input/Output:
+- Input: Row and column selections from players.
+- Output: Visual representation of the game board, messages indicating player turns, game outcomes, and error messages.
+
+Error Handling:
+- Checks for invalid input (out-of-bounds or already occupied spaces) and displays appropriate error messages to the user.
+
+Game Logic:
+- The program checks for winning combinations after each move and declares a winner if found.
+- If no winner is found, the program checks for a draw condition where all spaces are filled without a winner.
+- The game ends when a winner is declared or when a draw occurs.
+
